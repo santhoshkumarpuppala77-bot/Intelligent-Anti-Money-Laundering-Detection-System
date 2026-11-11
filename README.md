@@ -1,6 +1,6 @@
 # 🛡️ Intelligent Anti-Money Laundering Detection System Using Artificial Neural Networks
 
-## 📌 Project Overview
+##  Project Overview
 
 Money laundering is a major financial crime in which illegal money is transferred through financial transactions to make it appear legitimate. Traditional rule-based systems often struggle to identify complex and unusual transaction patterns.
 
@@ -8,7 +8,7 @@ This project develops an **Intelligent Anti-Money Laundering (AML) Detection Sys
 
 The trained ANN model analyzes transaction details and classifies transactions into two categories: Money Laundering and Not Money Laundering. A simple interactive web application is developed using Streamlit to make predictions based on user-provided transaction information.
 
-## 🎯 Business Objective
+##  Business Objective
 
 The primary objective is to develop an intelligent machine learning solution that can:
 
@@ -18,7 +18,7 @@ The primary objective is to develop an intelligent machine learning solution tha
 - Reduce dependency on traditional rule-based detection methods.
 - Provide a simple interface for transaction analysis.
 
-## 📊 Features Used
+##  Features Used
 
 The model uses the following six input features:
 
@@ -31,7 +31,7 @@ The model uses the following six input features:
 | Receiver_bank_location | Location of the receiver's bank |
 | Payment_type | Type of financial transaction |
 
-## 🤖 Machine Learning Approach
+##  Machine Learning Approach
 
 **Artificial Neural Network (ANN)** is used to learn patterns from transaction data and classify financial transactions.
 
@@ -46,7 +46,7 @@ The project involves the following workflow:
 7. Model Saving and Serialization
 8. Streamlit Application Development
 
-## ⚙️ Technology Stack
+##  Technology Stack
 
 | Category | Technologies |
 |---|---|
@@ -59,7 +59,7 @@ The project involves the following workflow:
 | Model Deployment | Streamlit |
 | Model Serialization | Keras, Joblib |
 
-## 🔍 Prediction Output
+##  Prediction Output
 
 The trained ANN model produces two classification outputs:
 
@@ -70,7 +70,7 @@ The trained ANN model produces two classification outputs:
 
 The Streamlit application displays the final prediction based on the transaction details entered by the user.
 
-## 🖥️ Streamlit Application
+##  Streamlit Application
 
 The application provides a simple interface where users can enter:
 
@@ -83,7 +83,7 @@ The application provides a simple interface where users can enter:
 
 After entering the details, users can click the **Analyze Transaction** button to receive the prediction.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Intelligent-AML-Detection/
@@ -100,7 +100,7 @@ Intelligent-AML-Detection/
 
 *The notebooks folder is optional.*
 
-## 🚀 Installation and Execution
+##  Installation and Execution
 
 ### Step 1: Clone the Repository
 
@@ -146,7 +146,7 @@ The application will open in your browser at:
 http://localhost:8501
 ```
 
-## 💡 Key Benefits
+##  Key Benefits
 
 - Uses Artificial Neural Networks to learn transaction patterns.
 - Supports binary classification of financial transactions.
@@ -154,14 +154,14 @@ http://localhost:8501
 - Provides an interactive and user-friendly interface.
 - Demonstrates an end-to-end deep learning deployment workflow.
 
-## ⚠️ Limitations
+##  Limitations
 
 - Model predictions depend on the quality and representativeness of training data.
 - Unseen categorical values may require additional preprocessing support.
 - The system should be validated using real-world financial transaction data before operational use.
 - Predictions are indicators for further investigation, not proof of criminal activity.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Integrate real-time transaction monitoring.
 - Implement anomaly detection techniques.
@@ -170,7 +170,7 @@ http://localhost:8501
 - Deploy the application on a cloud platform.
 - Integrate the system with financial transaction databases.
 
-## 👨‍💻 Project Information
+##  Project Information
 
 **Project Title:** Intelligent Anti-Money Laundering Detection System Using Artificial Neural Networks
 
@@ -182,6 +182,6 @@ http://localhost:8501
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+ If you find this project interesting, consider giving the repository a star!
 
 **Disclaimer:** This project is developed for educational and research purposes. It is not a certified financial crime detection or compliance system.
