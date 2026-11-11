@@ -1,0 +1,7 @@
+pandas == 2.3.3
+numpy
+tensorflow
+keras
+scikit-learn
+streamlit
+imblearn
